@@ -1,0 +1,17 @@
+0 Dan yükleme yaparken
+
+$ git init
+$ git config --global user.name "Aktuğ Çetin"
+$ git config --global user.email "sqkly@hotmail.com"
+$ git add *
+$ git commit -m "Ödevler için yeni klasör oluşturuldu"
+$ git remote add origin https://github.com/aktugcetin/odevler.git
+$ git push origin master
+
+
+Yeni Dosyayı yüklerken
+
+git status
+git add *
+git commit -m "Açıklama"
+git push origin master
